@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 40px;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+header {
+  position: relative;
+  height: 30vh;
+  border-bottom: 8px solid white;
+}
+main {
+  height: 50vw;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-around;
+}
+.section--1 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section--2 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guessMynum {
+  font-size: 2rem;
+  text-align: center;
+
+  width: 100%;
+}
+.number {
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  width: 4rem;
+  font-size: 2rem;
+  padding: 0.5rem 0rem;
+  top: 70%;
+  bottom: 20;
+  left: 45%;
+}
+.again {
+  font-size: 1rem;
+  border: 2px solid rgb(70, 68, 68);
+}
+.between {
+  float: right;
+}
+.guess {
+  border: 2px solid rgb(70, 68, 68);
+  color: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 4rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 1rem;
+}
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: rgb(94, 93, 93);
+}
+.message {
+  margin-bottom: 2rem;
+}
+.sec2-score {
+  margin-bottom: 1rem;
+}
